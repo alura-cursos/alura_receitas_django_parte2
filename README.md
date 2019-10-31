@@ -2,12 +2,12 @@
 
 Projeto da Alura cursos online, desenvolvido em Python3 com framework Django
 
-## Projeto final aula 2
+## Projeto final aula 3
 
 Nessa aula:
 
-- Criamos o app de `pessoas`, criamos um modelo com `nome` e `email` e realizamos a migração;
+- Criamos o campo `publicada` no models de receitas, atribuindo o valor `default=False`, exibindo apenas as receitas publicadas com valor `True`;
 
-- Integramos o modelo de receita com o modelo de pessoa, indicando quem postou a receita;
+- Incluímos o código `list_editable` do campo publicada no admin.py de receita e alteramos a ordenação por data;
 
-- Influímos a função `__str__` para retornar o nome  da pessoa no admin no lugar de `Pessoa object`.
+- Adicionamos o campo `foto_receita`, instalamos o [pillow](https://pillow.readthedocs.io/en/stable/), realizamos a migração e adicionamos uma foto no bolo de chocolate.
