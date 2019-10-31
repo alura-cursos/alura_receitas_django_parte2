@@ -2,12 +2,12 @@
 
 Projeto da Alura cursos online, desenvolvido em Python3 com framework Django
 
-## Projeto final aula 3
+## Projeto final aula 4
 
 Nessa aula:
 
-- Criamos o campo `publicada` no models de receitas, atribuindo o valor `default=False`, exibindo apenas as receitas publicadas com valor `True`;
+- Configuramos o `static root`, `settings` e alteramos nossos templates para exibir a foto da receita;
 
-- Incluímos o código `list_editable` do campo publicada no admin.py de receita e alteramos a ordenação por data;
+- Além disso, criamos uma verificação nos casos de não haver a foto da receita, exibindo a imagem padrão;
 
-- Adicionamos o campo `foto_receita`, instalamos o [pillow](https://pillow.readthedocs.io/en/stable/), realizamos a migração e adicionamos uma foto no bolo de chocolate.
+- Desenvolvemos a página de busca, e método buscar na view, exibindo o resultado da busca.
