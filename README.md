@@ -1,4 +1,4 @@
-# Alura cursos online - Fundamentos Django 2: Uma aplicação web
+# Alura cursos online - Fundamentos Django 2 (Parte 2): Uma aplicação web
 
 Projeto da Alura cursos online, desenvolvido em Python3 com framework Django
 
@@ -6,11 +6,6 @@ Projeto da Alura cursos online, desenvolvido em Python3 com framework Django
 
 Nessa aula:
 
-- Criamos uma pasta para manter todo código da nossa aplicação;
+- Alteramos o Admin do Django para exibir o nome de cada receita através da função [__str__](https://docs.djangoproject.com/pt-br/2.2/howto/custom-model-fields/);
 
-- Utilizamos o módulo venv, que fornece suporte para a criação de ambientes virtuais leves com seus próprios diretórios, opcionalmente isolados dos diretórios do sistema;
-
-- Utilizamos o pip para instalar o Django em nosso ambiente virtual;
-
-- Iniciamos o desenvolvimento da nossa aplicação com o comando django-admin start project alurareceita e subimos o servidor com o comando python manage.py runserver.
-
+- Adicionamos filtros, buscas e paginação alterando o código do [admin.py](https://docs.djangoproject.com/en/2.2/ref/contrib/admin/).
